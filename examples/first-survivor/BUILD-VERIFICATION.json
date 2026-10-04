@@ -1,0 +1,43 @@
+{
+  "artifact": {
+    "bytes": 10752,
+    "path": "Mod/bin/Release/netstandard2.1/WorkbenchRecruit.dll",
+    "sha256": "981107521461d4ac17cecc86c999aece2fc95c9c57808521d558a1e2001f7126"
+  },
+  "compiler_errors": 0,
+  "compiler_warnings": 1,
+  "created_utc": "2026-10-04T10:37:48.124454+00:00",
+  "full_log_review": "SDK, restore and build logs reviewed by implementation agent; no other diagnostic was present.",
+  "input_hashes": {
+    "AGENTS.md": "513ac0e1ad37d7d3852c2ae1e3f9ddcd07936a78b0dd7913b2cbae97b160c46d",
+    "CLAUDE.md": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49",
+    "Mod/FirstSurvivor.csproj": "e7881c59376178880b5615caf6bca2a2615f0afe83d95e0524cf30b3480a1786",
+    "Mod/Identity.cs": "a8f01a57fb0d61393926a2eeb96f561928978ad46aa2b0aae8f77fc5a1b2a1e9",
+    "Mod/Plugin.cs": "64b978c43291aedfbf7ecc4082112c9c26f6ec594dae1a4de791673a13f77dca",
+    "Mod/RecruitContent.cs": "0dd5110c53f7c67bb725a16dfc935b99db6c2bf519f49a6012060f7029e1e40a",
+    "Mod/packages.lock.json": "cfcbe861db0db96d9f74a162ac00f9aa9f7d0119fd7b565406081c93123862bd",
+    "nuget.config": "2ea866de59a112d193211d696826dc05dd3c91e714cfc3df9402355732fe831e",
+    "workbench.json": "cfd3b506d25335f9fd92e2f6c63cbc06d5e3a3ba1f07fb2bb72cc8b84f7fdb75"
+  },
+  "limitations": [
+    "Publicized reference compilation is not native API/runtime access proof.",
+    "No game/profile/editor/controller/multiplayer/media test or publication occurred.",
+    "No game/framework assemblies or source assets are part of the package allowlist.",
+    "Identical DLL output across checkout locations is unverified; prior checkout output differed."
+  ],
+  "nuget_audit": "not_run",
+  "operation": "reviewed-compile-summary",
+  "restore_mode": "offline-existing-feed",
+  "retained_warning": {
+    "code": "NU1701",
+    "dependency": "MMHOOK.RoR2 2025.12.9",
+    "reason": "Package restored for .NET Framework rather than target netstandard2.1; native compatibility remains unverified.",
+    "suppression": "none"
+  },
+  "runtime_acceptance": "not_run",
+  "schema": 1,
+  "scope": "compile-only",
+  "sdk_version": "10.0.302",
+  "status": "passed",
+  "tool_version": "0.1.1"
+}

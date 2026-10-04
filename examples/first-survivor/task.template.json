@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "id": "native-recruit-acceptance",
+  "goal": "Build the original native survivor recipe, then separately verify catalog, native input and network behavior.",
+  "base": null,
+  "status": "active",
+  "integrator": "project-maintainer",
+  "owned_paths": ["Mod", "Package"],
+  "acceptance": [
+    {"id": "compile", "level": "build", "status": "pending", "evidence": null},
+    {"id": "catalog-and-native-skills", "level": "solo", "status": "pending", "evidence": null},
+    {"id": "physical-controller", "level": "controller", "status": "pending", "evidence": null},
+    {"id": "client-host", "level": "multiplayer", "status": "pending", "evidence": null}
+  ],
+  "next_action": "Run the fixed build-only script and review its receipt; request a bounded runtime acceptance window separately."
+}

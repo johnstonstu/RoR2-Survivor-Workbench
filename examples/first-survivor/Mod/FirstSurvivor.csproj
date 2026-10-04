@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>7.3</LangVersion>
+    <AssemblyName>WorkbenchRecruit</AssemblyName>
+    <RootNamespace>WorkbenchRecruit</RootNamespace>
+    <Version>0.1.0</Version>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <DebugType>none</DebugType>
+    <Deterministic>true</Deterministic>
+    <PathMap>$(MSBuildProjectDirectory)=/src</PathMap>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Core" Version="[5.4.21]" PrivateAssets="all" />
+    <PackageReference Include="R2API.Core" Version="[5.3.0]" PrivateAssets="all" />
+    <PackageReference Include="R2API.Prefab" Version="[1.1.1]" PrivateAssets="all" />
+    <PackageReference Include="R2API.Language" Version="[1.1.0]" PrivateAssets="all" />
+    <PackageReference Include="R2API.ContentManagement" Version="[1.0.10]" PrivateAssets="all" />
+    <PackageReference Include="RiskOfRain2.GameLibs" Version="[1.4.1-r.0]" PrivateAssets="all" />
+    <PackageReference Include="MMHOOK.RoR2" Version="[2025.12.9]" PrivateAssets="all" />
+    <PackageReference Include="RoR2BepInExPack" Version="[1.41.0]" PrivateAssets="all" />
+    <PackageReference Include="UnityEngine.Modules" Version="[2021.3.33]" PrivateAssets="all" />
+  </ItemGroup>
+  <!-- No post-build events, profile paths, Unity hooks or deployment targets. -->
+</Project>

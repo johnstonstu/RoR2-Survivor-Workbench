@@ -1,0 +1,16 @@
+.env
+.env.*
+.mcp.json
+__pycache__/
+*.pyc
+.venv/
+local/
+evidence/
+artifacts/
+dist/
+*.egg-info/
+build/
+**/bin/
+**/obj/
+**/Library/
+**/Temp/
